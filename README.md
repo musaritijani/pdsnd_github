@@ -6,7 +6,7 @@
 **Explore US Bikeshare Data**
 
 ### Description
-Calculatate Statistics with an interactive environment where a user can choose a data and filter for a dataset to analyze.
+_Calculatate Statistics with an interactive environment where a user can choose a data and filter for a dataset to analyze._
 
 ### Files used
 chicago.csv
