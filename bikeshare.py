@@ -12,7 +12,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 CITIES = ['chicago', 'new york', 'washington']
 
-MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
+MONTH = ['january', 'february', 'march', 'april', 'may', 'june']
 
 DAY = ['sunday', 'monday', 'tuesday', 'wednesday', \
         'thursday', 'friday', 'saturday' ]
@@ -39,7 +39,7 @@ def get_filters():
             
     while True:
         month = input("enter month. like January, Feburary, March, April, May or June?").lower()
-        if month not in MONTHS:
+        if month not in MONTH:
             print("enter valid")
             continue
         else:
